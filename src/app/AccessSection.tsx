@@ -75,7 +75,7 @@ const AccessSection = () => {
           <div className="relative mb-8">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">定休日</h3>
             <p className="text-gray-600">
-              毎週火曜日
+              毎週月火
               <br />
               （祝日は営業）
             </p>
