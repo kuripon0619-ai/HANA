@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Reservation {
+  id             Int      @id @default(autoincrement())
+  Name           String
+  PhoneNumber    String
+  Email          String
+  PreferredDate  DateTime
+  PreferredTime  String   // ← DateTime ではなく String にする
+  Menu           String
+  Notes          String?
+}
+
+model sysdiagrams {
+  name         String @db.NVarChar(128)
+  principal_id Int
+  diagram_id   Int    @id(map: "PK__sysdiagr__C2B05B61D3D13E23") @default(autoincrement())
+  version      Int?
+  definition   Bytes?
+
+  @@unique([principal_id, name], map: "UK_principal_name")
+}

@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export", // 静的出力
+  images: {
+    unoptimized: true, // ← これを追加！
+  },
 };
 
 export default nextConfig;
