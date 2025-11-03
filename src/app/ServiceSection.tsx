@@ -9,10 +9,12 @@ const ServiceSection = () => {
         {/* 見出し */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-            HANA美容室はあなたに寄り添う美容室
+            hana美容室は
+            <br />
+            あなたに寄り添う美容室
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            アナタの魅力を引き出す オシャレをとことん楽しもう♪
+            あなたの魅力を引き出す オシャレをとことん楽しもう♪
             理想のヘアスタイルが手に入る。
           </p>
         </div>

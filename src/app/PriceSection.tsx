@@ -93,7 +93,7 @@ export default function PriceSection() {
             （現金・PayPay・d払い対応）／駐車場１台あり
           </p>
           <p className="text-gray-600 text-lg mt-2">
-            営業時間：9:00〜18:00 ／ 定休日：毎週火曜日・他2回月曜
+            営業時間：9:00〜18:00 ／ 定休日：毎週月火
           </p>
           <p className="text-gray-600 text-lg mt-2">
             ご予約優先　TEL：03-3859-7687

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-6 max-w-none">
         {/* 店名とコピーライト */}
         <div className="text-center sm:text-left">
-          <h3 className="text-xl font-semibold">HANA美容室</h3>
+          <h3 className="text-xl font-semibold">hana美容室</h3>
           <p className="text-sm mt-1">
             © 2025 Beauty Salon hana. All rights reserved.
           </p>
